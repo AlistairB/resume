@@ -1,7 +1,7 @@
 name: Alistair Burrowes
 meta:
   format: FRESH@0.6.1
-  version: 0.1.0
+  version: 1.0.0
 info:
   label: Senior Developer
   characterClass: Programmer
@@ -87,24 +87,24 @@ employment:
         - Led the team in front end development.
         - Heavily involved in the front end guild.
         - Achieved a large improvement in front end performance.
-  - employer: Toll Priority
-    url: 'http://www.tollpriority.com.au'
-    position: Senior Developer
-    summary: >-
-      Develop and maintain internal and external web applications.
-    start: 2009-09
-    end: 2012-06
-    keywords:
-      - .NET
-      - 'C#'
-      - VB.NET
-      - ASP.NET MVC
-      - ASP.NET WebForms
-      - Web
-      - jQuery
-    highlights:
-      - Led the reconcilliation application redevelopment achieving a large amount of efficiency increase.
-      - Led the introduction of ASP.NET MVC.
+    - employer: Toll Priority
+      url: 'http://www.tollpriority.com.au'
+      position: Senior Developer
+      summary: >-
+        Develop and maintain internal and external web applications.
+      start: 2009-09
+      end: 2012-06
+      keywords:
+        - .NET
+        - 'C#'
+        - VB.NET
+        - ASP.NET MVC
+        - ASP.NET WebForms
+        - Web
+        - jQuery
+      highlights:
+        - Led the reconcilliation application redevelopment achieving a large amount of efficiency increase.
+        - Led the introduction of ASP.NET MVC.
     - employer: Japan
       position: English Teacher
       summary: Taught English in Japan to adults and children
@@ -112,24 +112,24 @@ employment:
       end: 2009-04
       highlights:
         - Became fluent in Japanese, passing the top level of the Japanese Language Proficiency Test.
-  - employer: Hyro Technologies
-    url: 'http://www.hyro.com'
-    position: Developer
-    summary: >-
-      Develop and maintain websites for clients.
-    start: 2004-04
-    end: 2007-02
-    keywords:
-      - Classic ASP
-      - .NET
-      - 'C#'
-      - ASP.NET WebForms
-      - Java
-      - Web
-      - Accessibility
-      - jQuery
-    highlights:
-      - Through my own volition I developed the 'Rolling Tool' for automating deployment to test and prod environments.
+    - employer: Hyro Technologies
+      url: 'http://www.hyro.com'
+      position: Developer
+      summary: >-
+        Develop and maintain websites for clients.
+      start: 2004-04
+      end: 2007-02
+      keywords:
+        - Classic ASP
+        - .NET
+        - 'C#'
+        - ASP.NET WebForms
+        - Java
+        - Web
+        - Accessibility
+        - jQuery
+      highlights:
+        - Through my own volition I developed the 'Rolling Tool' for automating deployment to test and prod environments.
 
 education:
   summary: 'Completed Diploma Of Software Development'
@@ -213,7 +213,7 @@ reading:
     url: 'https://www.reddit.com/r/Haskell/'
   - title: Hacker News / YCombinator
     flavor: website
-    url: 'https://news.ycombinator.com/'.
+    url: 'https://news.ycombinator.com/'
 languages:
   - language: English
     level: Native
@@ -224,10 +224,6 @@ interests:
   - name: reading
     summary: >-
       I read a lot of sci-fi and fantasy.
-    keywords:
-      - mystery
-      - Agatha Christie
-      - John Grisham
   - name: sport
     summary: >-
       I love soccer and cycling.
