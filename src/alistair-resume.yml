@@ -1,12 +1,12 @@
 name: Alistair Burrowes
 meta:
-  format: FRESH@0.6.1
+  format: FRESH@1.0.0-beta
   version: 1.0.0
 info:
   label: Senior Developer
   characterClass: Programmer
   brief: >-
-    **I am a geek who has been working as a software developer for about 10 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
+    I am a geek who has been working as a software developer for about 10 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
   image: alistair-portrait.jpg
 contact:
   website: 'https://www.alistairb.com'
@@ -20,7 +20,7 @@ projects:
     category: private
     role: contributor
     start: 2017-09
-    description: 'Create a new feed of core listing related data for REA'
+    summary: Create a new feed of core listing related data for REA.
     keywords:
       - Scala
       - AWS
@@ -54,7 +54,7 @@ employment:
         - Mentored other developers in the team.
         - Heavily involved the functional programming guild.
         - Heavily involved in the code review and hiring process.
-        - Haskell in prod? https://rea.tech/a-haskell-in-prod-journey
+        - Haskell in prod! https://rea.tech/a-haskell-in-prod-journey
     - employer: Inlogik
       url: 'https://www.inlogik.com'
       position: Senior Developer
@@ -103,7 +103,7 @@ employment:
         - Web
         - jQuery
       highlights:
-        - Led the reconcilliation application redevelopment achieving a large amount of efficiency increase.
+        - Led the reconcilliation application redevelopment achieving a large efficiency increase.
         - Led the introduction of ASP.NET MVC.
     - employer: Japan
       position: English Teacher
@@ -137,18 +137,18 @@ education:
   history:
     - institution: Sun Certification
       title: Sun Certified Java Programmer 5.0
-      start: 2005
-      end: 2005
+      start: 2005-05
+      end: 2005-05
     - institution: Swinburne University
       title: Diploma Of Software Development
       url: 'https://www.swinburne.edu.au'
-      start: 2002
-      end: 2003
+      start: 2002-02
+      end: 2003-11
 
 skills:
   sets:
     - name: Programming
-      level: advanced
+      level: master
       summary: I have aggressively developed my programming abilities throughout my career. My current focus is on furthering my functional programming knowledge, in particular in Haskell.
       skills:
         - Haskell
@@ -197,14 +197,14 @@ skills:
         - Buildkite
         - Monitoring
     - name: Docker
-      level: intermediate
+      level: advanced
       summary: Strong experience with Docker itself, however lack experience with Docker clustering solutions eg. Kubernetes
       skills:
         - Docker
 
 samples:
   - title: Haskell Toy Robot
-    summary: A Haskell implementation of the toy robot problem
+    summary: A Haskell implementation of the toy robot problem.
     url: 'https://github.com/AlistairB/borg'
     date: 2017-11
 reading:

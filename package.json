@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Alistair's Resume",
   "repository": "git@github.com:AlistairB/resume.git",
+  "license": "UNLICENSED",
   "author": "Alistair Burrowes",
   "dependencies": {
-    "hackmyresume": "^1.9.0-beta"
+    "hackmyresume": "^1.9.0-beta",
+    "yamljs": "^0.3.0"
   }
 }

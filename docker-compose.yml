@@ -1,7 +1,7 @@
 version: '3'
 services:
   dev:
-    image: node:8
+    build: support/dev
     volumes:
       - .:/work
       - node-8-node-modules:/work/node_modules

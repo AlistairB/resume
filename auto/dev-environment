@@ -9,5 +9,8 @@ trap "docker-compose down --volumes --remove-orphans" 0
 docker volume create --name node-8-node-modules > /dev/null
 docker volume create --name yarn-cache-8 > /dev/null
 
+# build the service
+docker-compose build dev
+
 # Run dev script or use what is passed in as arguments
 docker-compose run --rm dev "$@"
