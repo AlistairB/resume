@@ -8,23 +8,11 @@ info:
   brief: >-
     I am a geek who has been working as a software developer for about 10 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
   image: alistair-portrait.jpg
-contact:
-  website: 'https://www.alistairb.com'
 location:
   address: Brunswick
   city: Melbourne
   region: Victoria
   country: AU
-projects:
-  - title: Listing Publisher
-    category: private
-    role: contributor
-    start: 2017-09
-    summary: Create a new feed of core listing related data for REA.
-    keywords:
-      - Scala
-      - AWS
-      - Docker
 social:
   - label: GitHub
     network: GitHub
@@ -207,26 +195,3 @@ samples:
     summary: A Haskell implementation of the toy robot problem.
     url: 'https://github.com/AlistairB/borg'
     date: 2017-11
-reading:
-  - title: r/haskell
-    flavor: website
-    url: 'https://www.reddit.com/r/Haskell/'
-  - title: Hacker News / YCombinator
-    flavor: website
-    url: 'https://news.ycombinator.com/'
-languages:
-  - language: English
-    level: Native
-  - language: Japnese
-    level: Fluent
-    years: 13
-interests:
-  - name: reading
-    summary: >-
-      I read a lot of sci-fi and fantasy.
-  - name: sport
-    summary: >-
-      I love soccer and cycling.
-  - name: gaming
-    summary: >-
-      I enjoy video games.
