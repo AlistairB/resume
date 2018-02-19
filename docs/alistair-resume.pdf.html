@@ -1,0 +1,627 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Alistair Burrowes</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: block;
+}
+
+body {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.42857143;
+  background-color: #F0F0F0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Calibri', 'sans-serif';
+}
+
+/* Typical page borders are awkward when rendered to PDF. */
+body.pdf {
+  background-color: #FFFFFF;
+}
+
+/* Adobe or wkhtmltopdf has issues with the <main> tag, so we use <div> for
+the PDF case, <main> for the HTML case, and style both via an ID. */
+#main {
+  background-color: #FFF;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #E6E6E6;
+}
+
+body.pdf > #main {
+  border: none;
+}
+
+#container > header {
+  padding-top: 6em;
+  padding-bottom: 1em;
+}
+
+body.pdf #container > header {
+  padding: 0;
+}
+
+#main > #container > section {
+  margin-left: 150px;
+  position: relative;
+  display: block;
+}
+
+section > div {
+  margin-bottom: 60px;
+}
+
+span.fa
+{
+  font-size: 56px;
+  position: absolute;
+  top: 37px;
+  transform: translateY(-50%);
+  left: -100px;
+  color: #1a4367;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #EEE;
+}
+
+.tenure, .keywords {
+  font-size: 75%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 46px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 30px;
+  color: #4376a2;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding-top: 20px;
+  margin-bottom: 60px;
+}
+
+h3 {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+a, a:visited {
+  color: #428BCA;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.defunct {
+  color: #989898;
+  font-weight: bold;
+}
+
+#summary {
+  font-size: 150%;
+  margin-left: 0;
+  padding: 20px 0;
+}
+
+#summary > p > strong {
+  font-size: 1.25em;
+}
+
+#contact {
+  float: right;
+}
+
+#summary > header > .fa-info {
+  font-size: 70px;
+  /*letter-spacing: 5px; PDFs hate letter-spacing */
+  text-transform: uppercase;
+  font-weight: normal;
+  top: 50%;
+  left: -85px;
+  transform: translateY(-50%);
+}
+
+#summary h2 {
+  display: none;
+}
+
+
+.label-keyword {
+  display: inline-block;
+  background: #e8f4ff;
+  color: black;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #357ebd;
+  border-radius: 5px;
+  margin-top: 2px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.notes {
+  font-size: 10px;
+  display: block;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.card-skills {
+    position: relative;
+}
+.card-nested {
+    min-height: 0;
+    margin-bottom: 10px;
+    border-width: 1px 0 0 0;
+}
+.card {
+    background: #FFF;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+}
+.skill-level .skill-progress {
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: height 1s ease;
+}
+.skill-level .skill-progress.beginner {
+  height: 50%;
+  background: #e74c3c;
+}
+.skill-level .skill-progress.intermediate {
+  height: 70%;
+  background: #f1c40f;
+}
+.skill-level .skill-progress.advanced {
+  height: 80%;
+  background: #428bca;
+}
+.skill-level .skill-progress.master {
+  height: 95%;
+  background: #5cb85c;
+}
+.skill-info {
+  margin-left: 10px;
+}
+@media (max-width: 480px) {
+  .skill-info {
+    margin-left: 20px;
+  }
+}
+.skill-info > strong {
+  font-weight: 400;
+  font-size: 24px;
+  color: #1d1d1d;
+  line-height: 24px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.card-skills {
+  position: relative;
+}
+
+.space-top {
+    margin-top: 5px;
+}
+
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#elevator-pitch {
+  text-align: center;
+  font-size: 24px;
+  color: #BFC1C3;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.res-label {
+  font-style: italic;
+}
+</style>
+
+
+  </head>
+
+
+  <body>
+    <main id="main"> 
+      <div id="container">
+      <header>
+
+
+        <h1>Alistair Burrowes</h1>
+
+        <div id="contact">
+          
+          
+          
+        </div>
+      </header>
+
+
+
+
+<hr>
+<section id="summary">
+    <header>
+      <span class="fa fa-lg fa-info"></span>  <h2>info</h2>
+    </header>
+    I am a geek who has been working as a software developer for about 10 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
+</section>
+
+
+
+
+<hr>
+<section id="skills">
+  <header>
+  <h2>Skills</h2>
+  </header>
+  <span class="fa fa-lg fa-code"></span>
+  <ul class="list-unstyled">
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="master" data-placement="left">
+          <div class="skill-progress master"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Programming</strong>
+          <div class="space-top labels">
+                <div class="label label-keyword">
+                  <span class="kw">Haskell</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">Scala</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">Java</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">Ruby</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">JavaScript</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">C#</span>
+                </div>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
+          <div class="skill-progress advanced"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Web</strong>
+          <div class="space-top labels">
+                <div class="label label-keyword">
+                  <span class="kw">HTML</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">CSS</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">HTTP</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">JavaScript Libraries</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">Accessibility</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">Web Performance</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">SEO</span>
+                </div>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
+          <div class="skill-progress advanced"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Database</strong>
+          <div class="space-top labels">
+                <div class="label label-keyword">
+                  <span class="kw">MySQL</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">PostgreSQL</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">SQL Server</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">ORM</span>
+                </div>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
+          <div class="skill-progress advanced"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Cloud</strong>
+          <div class="space-top labels">
+                <div class="label label-keyword">
+                  <span class="kw">AWS</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">GCP</span>
+                </div>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
+          <div class="skill-progress advanced"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Software Testing</strong>
+          <div class="space-top labels">
+                <div class="label label-keyword">
+                  <span class="kw">TDD</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">BDD</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">Integration tests</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">Property Based Testing</span>
+                </div>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
+          <div class="skill-progress advanced"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Continuous Delivery</strong>
+          <div class="space-top labels">
+                <div class="label label-keyword">
+                  <span class="kw">Jenkins</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">Bamboo</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">Buildkite</span>
+                </div>
+                <div class="label label-keyword">
+                  <span class="kw">Monitoring</span>
+                </div>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
+          <div class="skill-progress advanced"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Docker</strong>
+          <div class="space-top labels">
+                <div class="label label-keyword">
+                  <span class="kw">Docker</span>
+                </div>
+          </div>
+        </div>
+      </li>
+  </ul>
+</section>
+
+
+
+
+
+
+
+
+
+
+<hr>
+<section id="employment">
+    <header>
+      <span class="fa fa-lg fa-building"></span>  <h2>employment</h2>
+    </header>
+
+<div>
+  <h3><em>Senior Developer</em>,
+    <a href="https://www.realestate.com.au">REA</a>
+    </h3>
+    <span class="tenure">2016-05 — Present</span>
+    | <span class="keywords">Ruby Scala Docker AWS Linux </span>
+  <p><p>Worked on REA&#39;s core data ingestion, storage and publication related systems.</p>
+</p>
+  <ul>
+    <li>Led the team in the move from Ruby to Scala.</li>
+    <li>Mentored other developers in the team.</li>
+    <li>Heavily involved the functional programming guild.</li>
+    <li>Heavily involved in the code review and hiring process.</li>
+    <li>Haskell in prod! <a href="https://rea.tech/a-haskell-in-prod-journey">https://rea.tech/a-haskell-in-prod-journey</a></li>
+  </ul>
+</div>
+<div>
+  <h3><em>Senior Developer</em>,
+    <a href="https://www.inlogik.com">Inlogik</a>
+    </h3>
+    <span class="tenure">2015-10 — 2016-04</span>
+    | <span class="keywords">.NET C# ASP.NET MVC Web React Mobile Web-based Apps </span>
+  <p><p>Worked on CMP expense management system and ExpenseMe mobile app.</p>
+</p>
+</div>
+<div>
+  <h3><em>Senior Developer</em>,
+    <a href="https://www.carsales.com.au">Carsales</a>
+    </h3>
+    <span class="tenure">2013-04 — 2015-04</span>
+    | <span class="keywords">.NET C# ASP.NET MVC Web Web performance Angular JS </span>
+  <p><p>Worked on redevelopment of a number of carsales websites.</p>
+</p>
+  <ul>
+    <li>Led the team in front end development.</li>
+    <li>Heavily involved in the front end guild.</li>
+    <li>Achieved a large improvement in front end performance.</li>
+  </ul>
+</div>
+<div>
+  <h3><em>Senior Developer</em>,
+    <a href="http://www.tollpriority.com.au">Toll Priority</a>
+    </h3>
+    <span class="tenure">2009-09 — 2012-06</span>
+    | <span class="keywords">.NET C# VB.NET ASP.NET MVC ASP.NET WebForms Web jQuery </span>
+  <p><p>Develop and maintain internal and external web applications.</p>
+</p>
+  <ul>
+    <li>Led the reconcilliation application redevelopment achieving a large efficiency increase.</li>
+    <li>Led the introduction of ASP.NET MVC.</li>
+  </ul>
+</div>
+<div>
+  <h3><em>English Teacher</em>,
+    Japan
+    </h3>
+    <span class="tenure">2007-04 — 2009-04</span>
+  <p><p>Taught English in Japan to adults and children</p>
+</p>
+  <ul>
+    <li>Became fluent in Japanese, passing the top level of the Japanese Language Proficiency Test.</li>
+  </ul>
+</div>
+<div>
+  <h3><em>Developer</em>,
+    <a href="http://www.hyro.com">Hyro Technologies</a>
+    </h3>
+    <span class="tenure">2004-04 — 2007-02</span>
+    | <span class="keywords">Classic ASP .NET C# ASP.NET WebForms Java Web Accessibility jQuery </span>
+  <p><p>Develop and maintain websites for clients.</p>
+</p>
+  <ul>
+    <li>Through my own volition I developed the &#39;Rolling Tool&#39; for automating deployment to test and prod environments.</li>
+  </ul>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+<section id="education">
+    <header>
+      <span class="fa fa-lg fa-mortar-board"></span>  <h2>education</h2>
+    </header>
+<div>
+<h3><em>Sun Certified Java Programmer 5.0</em>,
+Sun Certification
+</h3>
+<span class="tenure">2005-05</span>
+
+</div>
+<div>
+<h3><em>Diploma Of Software Development</em>,
+<a href="https://www.swinburne.edu.au">Swinburne University</a>
+</h3>
+<span class="tenure">2002-02 — 2003-11</span>
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+<section id="samples">
+    <header>
+      <span class="fa fa-lg fa-share"></span>  <h2>samples</h2>
+    </header>
+    <div>
+    <h3>
+    <a href="https://github.com/AlistairB/borg">Haskell Toy Robot</a>
+    </h3>
+    <span class="tenure">2017-11</span>
+    <p>A Haskell implementation of the toy robot problem.</p>
+
+    </div>
+</section>
+
+      </div>
+    </main>
+  </body>
+</html>

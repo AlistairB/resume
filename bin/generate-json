@@ -1,0 +1,3 @@
+#!/bin/bash -eu
+
+yarn run yaml2json src/alistair-resume.yml --save

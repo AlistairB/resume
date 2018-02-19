@@ -1,0 +1,5 @@
+#!/bin/bash -eu
+
+xvfb-run yarn run hackmyresume build src/alistair-resume.json \
+  TO docs/index.html docs/alistair-resume.pdf \
+  -t src/modern-theme
