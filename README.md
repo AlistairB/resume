@@ -1,5 +1,9 @@
 # Alistair's Resume
 
-yarn run yaml2json src/alistair-resume.yml --save
+## Updating
 
-xvfb-run yarn run hackmyresume build src/alistair-resume.json TO out/resume.html out/resume.pdf
+```bash
+auto/build
+
+# commit + push new version in docs
+```
