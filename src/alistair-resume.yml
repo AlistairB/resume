@@ -27,9 +27,9 @@ employment:
   history:
     - employer: REA
       url: 'https://www.realestate.com.au'
-      position: Senior Developer
+      position: Lead Developer
       summary: >-
-        Worked on REA's core data ingestion, storage and publication related systems.
+        Work on REA's core data ingestion, storage and publication related systems.
       start: 2016-05
       keywords:
         - Ruby
@@ -38,6 +38,7 @@ employment:
         - AWS
         - Linux
       highlights:
+        - Promoted to Lead Developer June 2018
         - Led the team in the move from Ruby to Scala.
         - Mentored other developers in the team.
         - Heavily involved the functional programming guild.
