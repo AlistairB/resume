@@ -196,3 +196,7 @@ samples:
     summary: A Haskell implementation of the toy robot problem.
     url: 'https://github.com/AlistairB/borg'
     date: 2017-11
+  - title: Docker Stack Haskell
+    summary: A pattern for dockerising a Haskell application.
+    url: 'https://github.com/AlistairB/docker-stack-haskell'
+    date: 2017-05
