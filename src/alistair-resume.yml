@@ -3,13 +3,13 @@ meta:
   format: FRESH@1.0.0-beta
   version: 1.0.0
 info:
-  label: Senior Developer
+  label: Lead Developer
   characterClass: Programmer
   brief: >-
     I am a geek who has been working as a software developer for about 13 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
   image: alistair-portrait.jpg
 location:
-  address: Brunswick
+  address: Brunswick West
   city: Melbourne
   region: Victoria
   country: AU
@@ -32,8 +32,8 @@ employment:
         Lead the newly formed 'Listings Internal Team'.
       start: 2018-06
       keywords:
-        - Ruby
         - Scala
+        - Ruby
         - Docker
         - AWS
         - Linux
@@ -60,12 +60,12 @@ employment:
         - Mentored other developers in the team.
         - Heavily involved the functional programming guild.
         - Heavily involved in the code review and hiring process.
-        - Haskell in prod! https://rea.tech/a-haskell-in-prod-journey
+        - Haskell in prod! https://www.rea-group.com/blog/a-haskell-in-prod-journey/
     - employer: Inlogik
       url: 'https://www.inlogik.com'
       position: Senior Developer
       summary: >-
-        Worked on CMP expense management system and ExpenseMe mobile app.
+        Develop the CMP expense management system and ExpenseMe mobile app.
       start: 2015-10
       end: 2016-04
       keywords:
@@ -73,13 +73,13 @@ employment:
         - 'C#'
         - ASP.NET MVC
         - Web
-        - React
+        - React JS
         - Mobile Web-based Apps
     - employer: Carsales
       url: 'https://www.carsales.com.au'
       position: Senior Developer
       summary: >-
-        Worked on redevelopment of a number of carsales websites.
+        Develop and maintain a number of 'lifestyle' related websites.
       start: 2013-04
       end: 2015-04
       keywords:
@@ -90,6 +90,7 @@ employment:
         - Web performance
         - Angular JS
       highlights:
+        - Worked on redevelopment of a number of carsales websites.
         - Led the team in front end development.
         - Heavily involved in the front end guild.
         - Achieved a large improvement in front end performance.
@@ -113,7 +114,7 @@ employment:
         - Led the introduction of ASP.NET MVC.
     - employer: Japan
       position: English Teacher
-      summary: Taught English in Japan to adults and children
+      summary: Teach English in Japan to adults and children
       start: 2007-04
       end: 2009-04
       highlights:
@@ -135,7 +136,7 @@ employment:
         - Accessibility
         - jQuery
       highlights:
-        - Through my own volition I developed the 'Rolling Tool' for automating deployment to test and prod environments.
+        - Through my own volition I developed the 'Rolling Tool' for automating deployment to test and production environments.
 
 education:
   summary: 'Completed Diploma Of Software Development'
