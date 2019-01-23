@@ -6,7 +6,7 @@ info:
   label: Senior Developer
   characterClass: Programmer
   brief: >-
-    I am a geek who has been working as a software developer for about 12 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
+    I am a geek who has been working as a software developer for about 13 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
   image: alistair-portrait.jpg
 location:
   address: Brunswick
@@ -23,14 +23,14 @@ social:
     user: AlistairBuzz
     url: 'https://twitter.com/AlistairBuzz'
 employment:
-  summary: 10 years of professional experience in a variety of languages, with a strong recent focus on functional programming.
+  summary: 13 years of professional experience in a variety of languages, with a strong recent focus on functional programming.
   history:
-    - employer: REA
+    - employer: REA Group
       url: 'https://www.realestate.com.au'
       position: Lead Developer
       summary: >-
-        Work on REA's core data ingestion, storage and publication related systems.
-      start: 2016-05
+        Lead the newly formed 'Listings Internal Team'.
+      start: 2018-06
       keywords:
         - Ruby
         - Scala
@@ -38,7 +38,24 @@ employment:
         - AWS
         - Linux
       highlights:
-        - Promoted to Lead Developer June 2018.
+        - Promoted when the team expanded and split into two teams.
+        - Focused on upskilling a fairly junior team with multiple new members.
+        - Consulted heavily with other teams on joint initiatives.
+        - Designed (with others) a number of new pipelines and systems.
+    - employer: REA Group
+      url: 'https://www.realestate.com.au'
+      position: Senior Developer
+      summary: >-
+        Work on REA's core data ingestion, storage and publication related systems.
+      start: 2016-05
+      end: 2018-06
+      keywords:
+        - Ruby
+        - Scala
+        - Docker
+        - AWS
+        - Linux
+      highlights:
         - Led the team in the move from Ruby to Scala.
         - Mentored other developers in the team.
         - Heavily involved the functional programming guild.
