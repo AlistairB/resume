@@ -1,7 +1,7 @@
-FROM node:10
+FROM node:lts
 
 RUN apt-get update \
  && apt-get install -y \
     wkhtmltopdf \
     xvfb \
- && apt-get clean
+ && rm -rf /var/lib/apt/lists/*
