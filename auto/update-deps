@@ -2,4 +2,6 @@
 
 cd $(dirname $0)/..
 
+docker pull node:12
+
 auto/dev-environment yarn upgrade
