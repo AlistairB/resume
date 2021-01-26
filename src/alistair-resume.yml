@@ -6,7 +6,7 @@ info:
   label: Lead Developer
   characterClass: Programmer
   brief: >-
-    I am a geek who has been working as a software developer for about 13 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
+    I am a geek who has been working as a software developer for about 16 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
   image: alistair-portrait.jpg
 location:
   address: Brunswick West
@@ -23,14 +23,31 @@ social:
     user: AlistairBuzz
     url: 'https://twitter.com/AlistairBuzz'
 employment:
-  summary: 13 years of professional experience in a variety of languages, with a strong recent focus on functional programming.
+  summary: 16 years of professional experience in a variety of languages, with a strong recent focus on functional programming.
   history:
+    - employer: Deadpendency
+      url: 'https://deadpendency.com'
+      position: Founder
+      summary: >-
+        Develop my side project idea into a complete product.
+      start: 2020-02
+      keywords:
+        - Haskell
+        - Docker
+        - GCP
+        - Terraform
+        - Linux
+      highlights:
+        - Improved my Haskell and functional programming skills.
+        - Improved my 'ops' skills, being forced to build all componentry including CI setup, alerting integration etc.
+        - Grew in product level thinking.
     - employer: REA Group
       url: 'https://www.realestate.com.au'
       position: Lead Developer
       summary: >-
         Lead the newly formed 'Listings Internal Team'.
       start: 2018-06
+      end: 2020-02
       keywords:
         - Scala
         - Ruby
@@ -114,7 +131,7 @@ employment:
         - Led the introduction of ASP.NET MVC.
     - employer: Japan
       position: English Teacher
-      summary: Teach English in Japan to adults and children
+      summary: Teach English in Japan to adults and children.
       start: 2007-04
       end: 2009-04
       highlights:
@@ -164,17 +181,6 @@ skills:
         - Ruby
         - JavaScript
         - 'C#'
-    - name: Web
-      level: advanced
-      summary: I have many years of experience being a front-end focused developer. However, more recently I have been focused on the backend so my skills are a little bit out of date.
-      skills:
-        - HTML
-        - CSS
-        - HTTP
-        - JavaScript Libraries
-        - Accessibility
-        - Web Performance
-        - SEO
     - name: Database
       level: advanced
       summary: I have used databases throughout my career.
@@ -189,6 +195,7 @@ skills:
       skills:
         - AWS
         - GCP
+        - Terraform
     - name: Software Testing
       level: advanced
       skills:
@@ -203,6 +210,17 @@ skills:
         - Bamboo
         - Buildkite
         - Monitoring
+    - name: Web
+      level: advanced
+      summary: I have many years of experience being a front-end focused developer. However, more recently I have been focused on the backend so my skills are a little bit out of date.
+      skills:
+        - HTML
+        - CSS
+        - HTTP
+        - JavaScript Libraries
+        - Accessibility
+        - Web Performance
+        - SEO
     - name: Docker
       level: advanced
       summary: Strong experience with Docker itself, however lack experience with Docker clustering solutions eg. Kubernetes
