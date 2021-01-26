@@ -4,14 +4,14 @@ services:
     build: support/dev
     volumes:
       - .:/work
-      - node-12-node-modules:/work/node_modules
-      - yarn-cache-12:/tmp/yarn-cache
+      - node-14-node-modules:/work/node_modules
+      - yarn-cache-14:/tmp/yarn-cache
     working_dir: /work
     environment:
       yarn_cache_folder: /tmp/yarn-cache
 
 volumes:
-  node-12-node-modules:
+  node-14-node-modules:
     external: true
-  yarn-cache-12:
+  yarn-cache-14:
     external: true
