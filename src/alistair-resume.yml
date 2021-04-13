@@ -189,7 +189,7 @@ skills:
       skills:
         - TDD
         - BDD
-        - Integration tests
+        - Integration Testing
         - Property Based Testing
         - Smoke Testing        
     - name: Database
