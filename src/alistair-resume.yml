@@ -22,6 +22,8 @@ social:
     network: Twitter
     user: AlistairBuzz
     url: 'https://twitter.com/AlistairBuzz'
+contact:
+  website: 'https://alistairb.dev'
 employment:
   summary: 16 years of professional experience in a variety of languages, with a strong recent focus on functional programming.
   history:
@@ -107,7 +109,7 @@ employment:
         - Web performance
         - Angular JS
       highlights:
-        - Worked on redevelopment of a number of carsales websites.
+        - Worked on the redevelopment of a number of carsales websites.
         - Led the team in front end development.
         - Heavily involved in the front end guild.
         - Achieved a large improvement in front end performance.
@@ -177,8 +179,8 @@ skills:
       skills:
         - Haskell
         - Scala
-        - Java
         - Ruby
+        - Java
         - JavaScript
         - 'C#'
     - name: Database
