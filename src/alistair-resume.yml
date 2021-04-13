@@ -79,7 +79,7 @@ employment:
         - Mentored other developers in the team.
         - Heavily involved the functional programming guild.
         - Heavily involved in the code review and hiring process.
-        - Haskell in prod! https://www.rea-group.com/blog/a-haskell-in-prod-journey/
+        - "[Haskell in prod!](https://www.rea-group.com/blog/a-haskell-in-prod-journey/)"
     - employer: Inlogik
       url: 'https://www.inlogik.com'
       position: Senior Developer
@@ -181,8 +181,17 @@ skills:
         - Scala
         - Ruby
         - Java
+        - Kotlin
         - JavaScript
         - 'C#'
+    - name: Software Testing
+      level: master
+      skills:
+        - TDD
+        - BDD
+        - Integration tests
+        - Property Based Testing
+        - Smoke Testing        
     - name: Database
       level: advanced
       summary: I have used databases throughout my career.
@@ -198,13 +207,6 @@ skills:
         - AWS
         - GCP
         - Terraform
-    - name: Software Testing
-      level: advanced
-      skills:
-        - TDD
-        - BDD
-        - Integration tests
-        - Property Based Testing
     - name: Continuous Delivery
       level: advanced
       skills:
@@ -212,8 +214,13 @@ skills:
         - Bamboo
         - Buildkite
         - Monitoring
-    - name: Web
+    - name: Docker
       level: advanced
+      summary: Strong experience with Docker itself, however lack experience with Docker clustering solutions eg. Kubernetes
+      skills:
+        - Docker
+    - name: Web
+      level: intermediate
       summary: I have many years of experience being a front-end focused developer. However, more recently I have been focused on the backend so my skills are a little bit out of date.
       skills:
         - HTML
@@ -222,12 +229,15 @@ skills:
         - JavaScript Libraries
         - Accessibility
         - Web Performance
-        - SEO
-    - name: Docker
-      level: advanced
-      summary: Strong experience with Docker itself, however lack experience with Docker clustering solutions eg. Kubernetes
-      skills:
-        - Docker
+        - SEO        
+
+affiliation:
+  history:
+    - role: Software Developer
+      organization: Australia Lesiban Medical Association
+      url: 'https://www.almas.org.au'
+      start: 2013-06
+      summary: Develop and maintain [Doclist](http://www.doclist.com.au) as a volunteer.
 
 samples:
   - title: Haskell Toy Robot
