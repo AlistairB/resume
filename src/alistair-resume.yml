@@ -129,7 +129,7 @@ employment:
         - Web
         - jQuery
       highlights:
-        - Led the reconcilliation application redevelopment achieving a large efficiency increase.
+        - Led the reconciliation application redevelopment achieving a large efficiency increase.
         - Led the introduction of ASP.NET MVC.
     - employer: Japan
       position: English Teacher
@@ -234,7 +234,7 @@ skills:
 affiliation:
   history:
     - role: Software Developer
-      organization: Australia Lesiban Medical Association
+      organization: Australia Lesbian Medical Association
       url: 'https://www.almas.org.au'
       start: 2013-06
       summary: Develop and maintain [Doclist](http://www.doclist.com.au) as a volunteer.
