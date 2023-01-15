@@ -3,13 +3,13 @@ meta:
   format: FRESH@1.0.0-beta
   version: 1.0.0
 info:
-  label: Lead Developer
+  label: Software Developer
   characterClass: Programmer
   brief: >-
-    I am a geek who has been working as a software developer for about 16 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
+    I am a geek who has been working as a software developer for about 20 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
   image: alistair-portrait.jpg
 location:
-  address: Brunswick West
+  address: Reservoir
   city: Melbourne
   region: Victoria
   country: AU
@@ -25,14 +25,30 @@ social:
 contact:
   website: 'https://alistairb.dev'
 employment:
-  summary: 16 years of professional experience in a variety of languages, with a strong recent focus on functional programming.
+  summary: 18 years of professional experience in a variety of languages.
   history:
+    - employer: Zendesk
+      url: 'https://www.zendesk.com/'
+      position: Staff Software Engineer
+      summary: >-
+        Develop and maintain kubernetes operators for provisioning and accessing datastores.
+      start: 2020-02
+      keywords:
+        - Golang
+        - Kubernetes
+        - AWS
+        - Linux
+      highlights:
+        - Worked in a highly central team, supporting many teams to provision and access datastores.
+        - Became Tech Lead June 1st 2022.
+        - Lead a multi-AWS account S3 operator project. This was the first step for Zendesk in moving to multiple AWS accounts.
     - employer: Deadpendency
       url: 'https://deadpendency.com'
       position: Founder
       summary: >-
-        Develop my side project idea into a complete product.
+        Develop my startup idea into a complete product.
       start: 2020-02
+      end: 2022-12
       keywords:
         - Haskell
         - Docker
@@ -43,6 +59,8 @@ employment:
         - Improved my Haskell and functional programming skills.
         - Improved my 'ops' skills, being forced to build all componentry including CI setup, alerting integration etc.
         - Grew in product level thinking.
+        - Ultimately [shutdown](https://alistairb.dev/shutting-down-deadpendency/) as not a viable business.
+        - In the process of being open sourced.
     - employer: REA Group
       url: 'https://www.realestate.com.au'
       position: Lead Developer
@@ -191,7 +209,7 @@ skills:
         - BDD
         - Integration Testing
         - Property Based Testing
-        - Smoke Testing        
+        - Smoke Testing
     - name: Database
       level: advanced
       summary: I have used databases throughout my career.
@@ -229,7 +247,7 @@ skills:
         - JavaScript Libraries
         - Accessibility
         - Web Performance
-        - SEO        
+        - SEO
 
 affiliation:
   history:
