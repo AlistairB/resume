@@ -6,8 +6,8 @@ cd $(dirname $0)/..
 trap "docker-compose down --volumes --remove-orphans" 0
 
 # Create volume
-docker volume create --name node-14-node-modules > /dev/null
-docker volume create --name yarn-cache-14 > /dev/null
+docker volume create --name node-18-node-modules > /dev/null
+docker volume create --name yarn-cache-18 > /dev/null
 
 # build the service
 docker-compose build dev
