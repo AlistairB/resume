@@ -63,10 +63,10 @@ employment:
         - In the process of being open sourced.
     - employer: REA Group
       url: 'https://www.realestate.com.au'
-      position: Lead Developer
+      position: Lead Developer (Tech Lead)
       summary: >-
-        Lead the newly formed 'Listings Internal Team'.
-      start: 2018-06
+        Work on REA's core data ingestion, storage and publication related systems.
+      start: 2016-05
       end: 2020-02
       keywords:
         - Scala
@@ -75,29 +75,12 @@ employment:
         - AWS
         - Linux
       highlights:
-        - Promoted when the team expanded and split into two teams.
-        - Focused on upskilling a fairly junior team with multiple new members.
-        - Consulted heavily with other teams on joint initiatives.
-        - Designed (with others) a number of new pipelines and systems.
-    - employer: REA Group
-      url: 'https://www.realestate.com.au'
-      position: Senior Developer
-      summary: >-
-        Work on REA's core data ingestion, storage and publication related systems.
-      start: 2016-05
-      end: 2018-06
-      keywords:
-        - Ruby
-        - Scala
-        - Docker
-        - AWS
-        - Linux
-      highlights:
+        - Promoted to Lead Developer in June 2018.
         - Led the team in the move from Ruby to Scala.
         - Mentored other developers in the team.
         - Heavily involved the functional programming guild.
         - Heavily involved in the code review and hiring process.
-        - "[Haskell in prod!](https://www.rea-group.com/blog/a-haskell-in-prod-journey/)"
+        - "[Haskell in prod!](https://www.rea-group.com/about-us/news-and-insights/blog/a-haskell-in-prod-journey/)"
     - employer: Inlogik
       url: 'https://www.inlogik.com'
       position: Senior Developer
@@ -147,7 +130,7 @@ employment:
         - Web
         - jQuery
       highlights:
-        - Led the reconciliation application redevelopment achieving a large efficiency increase.
+        - Led the invoice reconciliation 2.0 project achieving a large efficiency increase.
         - Led the introduction of ASP.NET MVC.
     - employer: Japan
       position: English Teacher
@@ -193,7 +176,7 @@ skills:
   sets:
     - name: Programming
       level: master
-      summary: I have aggressively developed my programming abilities throughout my career. My current focus is on furthering my functional programming knowledge, in particular in Haskell.
+      summary: I have aggressively developed my programming abilities throughout my career. I have focused on learning many languages, with a particular focus on functional proramming.
       skills:
         - Haskell
         - Scala
@@ -234,12 +217,12 @@ skills:
         - Monitoring
     - name: Docker
       level: advanced
-      summary: Strong experience with Docker itself, however lack experience with Docker clustering solutions eg. Kubernetes
+      summary: Strong experience with Docker and Kubernetes.
       skills:
         - Docker
     - name: Web
       level: intermediate
-      summary: I have many years of experience being a front-end focused developer. However, more recently I have been focused on the backend so my skills are a little bit out of date.
+      summary: I was more focused towards the front-end the earlier years of my career.
       skills:
         - HTML
         - CSS
@@ -255,14 +238,5 @@ affiliation:
       organization: Australia Lesbian Medical Association
       url: 'https://www.almas.org.au'
       start: 2013-06
+      end: 2021-04
       summary: Develop and maintain [Doclist](http://www.doclist.com.au) as a volunteer.
-
-samples:
-  - title: Haskell Toy Robot
-    summary: A Haskell implementation of the toy robot problem.
-    url: 'https://github.com/AlistairB/borg'
-    date: 2017-11
-  - title: Docker Stack Haskell
-    summary: A pattern for dockerising a Haskell application.
-    url: 'https://github.com/AlistairB/docker-stack-haskell'
-    date: 2017-05
