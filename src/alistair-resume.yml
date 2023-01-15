@@ -6,7 +6,7 @@ info:
   label: Software Developer
   characterClass: Programmer
   brief: >-
-    I am a geek who has been working as a software developer for about 20 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
+    I am a geek who has been working as a software developer for about 18 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
   image: alistair-portrait.jpg
 location:
   address: Reservoir
@@ -31,17 +31,17 @@ employment:
       url: 'https://www.zendesk.com/'
       position: Staff Software Engineer
       summary: >-
-        Develop and maintain kubernetes operators for provisioning and accessing datastores.
+        Develop and maintain Kubernetes operators for provisioning and accessing datastores.
       start: 2020-02
       keywords:
-        - Golang
+        - Go
         - Kubernetes
         - AWS
+        - Spinnaker
         - Linux
       highlights:
-        - Worked in a highly central team, supporting many teams to provision and access datastores.
         - Became Tech Lead June 1st 2022.
-        - Lead a multi-AWS account S3 operator project. This was the first step for Zendesk in moving to multiple AWS accounts.
+        - Led the multi-AWS account S3 operator project. This was the first step in Zendesk moving to multiple AWS accounts in production.
     - employer: Deadpendency
       url: 'https://deadpendency.com'
       position: Founder
@@ -178,6 +178,7 @@ skills:
       level: master
       summary: I have aggressively developed my programming abilities throughout my career. I have focused on learning many languages, with a particular focus on functional proramming.
       skills:
+        - Go
         - Haskell
         - Scala
         - Ruby
@@ -214,12 +215,14 @@ skills:
         - Jenkins
         - Bamboo
         - Buildkite
+        - Spinnaker
         - Monitoring
-    - name: Docker
+    - name: Containers
       level: advanced
       summary: Strong experience with Docker and Kubernetes.
       skills:
         - Docker
+        - Kubernetes
     - name: Web
       level: intermediate
       summary: I was more focused towards the front-end the earlier years of my career.
