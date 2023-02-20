@@ -239,6 +239,11 @@ skills:
 affiliation:
   history:
     - role: Software Developer
+      organization: Haskell Docker
+      url: 'https://hub.docker.com/_/haskell'
+      start: 2021-04
+      summary: Maintain the official Haskell docker images.
+    - role: Software Developer
       organization: Australia Lesbian Medical Association
       url: 'https://www.almas.org.au'
       start: 2013-06
