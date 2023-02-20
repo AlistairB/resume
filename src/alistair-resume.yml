@@ -32,7 +32,7 @@ employment:
       position: Staff Software Engineer
       summary: >-
         Develop and maintain Kubernetes operators for provisioning and accessing datastores.
-      start: 2020-02
+      start: 2021-06
       keywords:
         - Go
         - Kubernetes
