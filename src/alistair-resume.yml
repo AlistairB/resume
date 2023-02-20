@@ -40,8 +40,9 @@ employment:
         - Spinnaker
         - Linux
       highlights:
-        - Became Tech Lead June 1st 2022.
+        - Became Tech Lead of 'Galaxy' team June 1st 2022.
         - Led the multi-AWS account S3 operator project. This was the first step in Zendesk moving to multiple AWS accounts in production.
+        - Mentored other developers on the team.
     - employer: Deadpendency
       url: 'https://deadpendency.com'
       position: Founder
