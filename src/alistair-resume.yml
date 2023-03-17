@@ -42,7 +42,9 @@ employment:
       highlights:
         - Became Tech Lead of the 'Galaxy' team June 2022.
         - Led the multi-AWS account S3 operator project. This was the first step in Zendesk moving to multiple AWS accounts in production.
+        - Worked on the Redis operator project, building an auditing Redis proxy.
         - Mentored other developers on the team.
+        - Championed code quality within the team.
     - employer: Deadpendency
       url: 'https://deadpendency.com'
       position: Founder
@@ -59,6 +61,7 @@ employment:
       highlights:
         - Improved my Haskell and functional programming skills.
         - Improved my 'ops' skills, being forced to build all componentry including CI setup, alerting integration etc.
+        - Improved my archtiectural ability, solving a complex problem.
         - Grew in product level thinking.
         - Ultimately [shutdown](https://alistairb.dev/shutting-down-deadpendency/) as not a viable business.
         - "[Open sourced](https://alistairb.dev/open-sourcing-deadpendency/)!"
@@ -77,9 +80,12 @@ employment:
         - Linux
       highlights:
         - Promoted to Lead Developer in June 2018.
+        - Led moving our last systems out of the DC and into AWS.
+        - Led the Listings API to support Apps for Agents.
+        - Led the Listing Publisher project, a next gen listing publication pipeline.
         - Led the team in the move from Ruby to Scala.
         - Mentored other developers in the team.
-        - Heavily involved the functional programming guild.
+        - Heavily involved in the functional programming guild.
         - Heavily involved in the code review and hiring process.
         - "[Haskell in prod!](https://www.rea-group.com/about-us/news-and-insights/blog/a-haskell-in-prod-journey/)"
     - employer: Inlogik
@@ -132,7 +138,7 @@ employment:
         - jQuery
       highlights:
         - Led the invoice reconciliation 2.0 project achieving a large efficiency increase.
-        - Led the introduction of ASP.NET MVC.
+        - Led the introduction of ASP.NET MVC framework.
     - employer: Japan
       position: English Teacher
       summary: Teach English in Japan to adults and children.
