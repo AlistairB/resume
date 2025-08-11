@@ -3,14 +3,14 @@
 cd $(dirname $0)/..
 
 # Clean up at the end
-trap "docker-compose down --volumes --remove-orphans" 0
+trap "docker compose down --volumes --remove-orphans" 0
 
 # Create volume
 docker volume create --name node-18-node-modules > /dev/null
 docker volume create --name yarn-cache-18 > /dev/null
 
 # build the service
-docker-compose build dev
+docker compose build dev
 
 # Run dev script or use what is passed in as arguments
-docker-compose run --rm dev "$@"
+docker compose run --rm dev "$@"

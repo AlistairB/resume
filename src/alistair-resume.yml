@@ -6,7 +6,7 @@ info:
   label: Software Developer
   characterClass: Programmer
   brief: >-
-    I am a geek who has been working as a software developer for about 18 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
+    I am a geek who has been working as a software developer for about 20 years. I am a polyglot programmer with varied experience. I take pride in my work and thoroughly enjoy my profession.
   image: alistair-portrait.jpg
 location:
   address: Reservoir
@@ -18,33 +18,30 @@ social:
     network: GitHub
     user: AlistairB
     url: 'https://github.com/AlistairB'
-  - label: Twitter
-    network: Twitter
-    user: AlistairBuzz
-    url: 'https://twitter.com/AlistairBuzz'
 contact:
   website: 'https://alistairb.dev'
 employment:
-  summary: 18 years of professional experience in a variety of languages.
+  summary: 20 years of professional experience in a variety of languages.
   history:
     - employer: Zendesk
       url: 'https://www.zendesk.com/'
-      position: Staff Software Engineer
+      position: Senior Staff Software Engineer
       summary: >-
-        Develop and maintain Kubernetes operators for provisioning and accessing datastores.
+        Develop and maintain the 'self service' platform for provisioning and accessing datastores.
       start: 2021-06
       keywords:
         - Go
         - Kubernetes
         - AWS
-        - Spinnaker
-        - Linux
+        - Snowflake
       highlights:
-        - Became Tech Lead of the 'Galaxy' team June 2022.
+        - Worked as IC and became Tech Lead of the 'Galaxy' team.
         - Led the multi-AWS account S3 operator project. This was the first step in Zendesk moving to multiple AWS accounts in production.
-        - Worked on the Redis operator project, building an auditing Redis proxy.
-        - Mentored other developers on the team.
-        - Championed code quality within the team.
+        - Worked as IC in the 'B team'.
+        - Developed multiple high profile projects as a leadership figure in the team.
+        - Tech Lead of the 'Self Service Datastores' team.
+        - Heavily involved in building the next generation data platform based on Snowflake.
+        - Wrote a [blog post](https://zendesk.engineering/resolving-incidents-with-the-remote-incident-console-a03cf8f809db)!
     - employer: Deadpendency
       url: 'https://deadpendency.com'
       position: Founder
@@ -58,6 +55,7 @@ employment:
         - GCP
         - Terraform
         - Linux
+        - Buildkite
       highlights:
         - Improved my Haskell and functional programming skills.
         - Improved my 'ops' skills, being forced to build all componentry including CI setup, alerting integration etc.
@@ -78,6 +76,7 @@ employment:
         - Docker
         - AWS
         - Linux
+        - Buildkite
       highlights:
         - Promoted to Lead Developer in June 2018.
         - Led moving our last systems out of the DC and into AWS.
@@ -164,7 +163,6 @@ employment:
         - jQuery
       highlights:
         - Through my own volition I developed the 'Rolling Tool' for automating deployment to test and production environments.
-
 education:
   summary: 'Completed Diploma Of Software Development'
   level: diploma
@@ -216,6 +214,8 @@ skills:
         - AWS
         - GCP
         - Terraform
+        - Kubernetes
+        - Buildkite
     - name: Continuous Delivery
       level: advanced
       skills:
@@ -248,6 +248,7 @@ affiliation:
       organization: Haskell Docker
       url: 'https://hub.docker.com/_/haskell'
       start: 2021-04
+      end: 2023-09
       summary: Maintain the official Haskell docker images.
     - role: Software Developer
       organization: Australia Lesbian Medical Association
